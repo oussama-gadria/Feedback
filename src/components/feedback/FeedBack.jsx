@@ -3,7 +3,7 @@ import { useState } from "react";
 import "../feedback.scss";
 import { useNavigate } from "react-router-dom";
 const buttons = [1, 2, 3, 4, 5];
-function FeedBack({ selectFeebackRate }) {
+function FeedBack({ setFeedbackRate }) {
   const [number, selectNumber] = useState(null);
   const navigate = useNavigate();
   const OnSelectNumber = (number) => {
@@ -11,7 +11,7 @@ function FeedBack({ selectFeebackRate }) {
   };
 
   const OnSubmit = () => {
-    selectFeebackRate(number);
+    setFeedbackRate(number);
     navigate("/thankYou");
   };
 
@@ -19,8 +19,8 @@ function FeedBack({ selectFeebackRate }) {
     <>
       <div className="d-flex justify-content-center pt-5 ">
         <Card className="feedback">
-          <Card.Body className="pt-4">
-            <div>
+          <Card.Body className="pt-4" >
+            <div style={{paddingLeft:"8px"}}>
               <button className="star-icon">
                 <img alt="star" src="icon-star.svg" />
               </button>

@@ -4,14 +4,14 @@ import FeedBack from './components/feedback/FeedBack';
 import { Route, Routes } from "react-router-dom";
 import FeedBackThankYou from './components/feedback/FeedBackThankYou';  
 function App() {
-  const [feedbackRate,selectFeebackRate]=useState(null);
+  const [feedbackRate,setFeedbackRate]=useState(null);
   return (
     <div className="App">
       <Routes>
         <Route 
         path='/'
          element={ 
-          <FeedBack selectFeebackRate={selectFeebackRate} />
+          <FeedBack setFeedbackRate={setFeedbackRate} />
          }> 
         </Route>
         <Route

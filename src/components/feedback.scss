@@ -1,3 +1,5 @@
+@import 'colors';
+
 .button-selected {
   background-color: hsl(25, 97%, 53%);
   color: white;
@@ -21,17 +23,17 @@
 
 
 .card-text {
-    color: hsl(217, 12%, 63%);
+    color: lightGrey;
     font-family: 'Overpass';
-    font-size: 15px;
+    font-size: 13px;
     font-weight: "400";
-    padding-left: 10px;
+   
 }
 
 .card-title {
     color: hsl(0, 0%, 100%);
     font-family: Overpass;
-    padding-left:10px;
+    font-size:25px;
 }
 
 .circular-button {
@@ -40,9 +42,7 @@
     border-radius: 50%;
     font-weight: bold;
     font-size: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     cursor: pointer;
     border: none;
     outline: none;
@@ -59,13 +59,14 @@
 
 .submit-button {
     background-color: hsl(25, 97%, 53%);
-    width: 300px;
+    width: 290px;
     height: 35px;
     color: hsl(0, 0%, 100%);
     font-family: Overpass;
     font-size: 13px;
     padding-top: 6px;
-    font-weight: 400;
+   font-weight: 500;
+   border: none;
 }
 
 .submit-button:hover {
@@ -76,5 +77,5 @@
 .star-icon{
     @extend .circular-button;
     background-color: #3e4750;
-    padding-left:10px;
+    padding-left:7px;
   }
