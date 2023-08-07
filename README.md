@@ -14,7 +14,8 @@ This is a responsive feedback component built with React. Visitors can view the 
 
 ## Demo
 
-You can see a live demo of the feedback component [here](<add-demo-link>).
+![alt text](https://github.com/oussama-gadria/Feedback/blob/main/public/desktop-preview.jpg?raw=true)
+![alt text](https://github.com/oussama-gadria/Feedback/blob/main/public/desktop-thank-you-state.jpg?raw=true)
 
 ## Features
 
@@ -58,6 +59,4 @@ The project is licensed under the MIT License.
 Feel free to customize this README to fit your project's specific details and add any additional sections as needed.
 
 
-##demo 
-![alt text](https://github.com/oussama-gadria/Feedback/blob/main/public/desktop-preview.jpg?raw=true)
-![alt text](https://github.com/oussama-gadria/Feedback/blob/main/public/desktop-thank-you-state.jpg?raw=true)
+
