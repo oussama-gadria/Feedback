@@ -12,7 +12,7 @@
 .feedback {
     border-radius: 7%;
     width: 350px;
-    height: 325px;
+    height: 340px;
     background-color: hsl(213, 19%, 18%);
 }
 
@@ -64,6 +64,8 @@
     color: hsl(0, 0%, 100%);
     font-family: Overpass;
     font-size: 13px;
+    padding-top: 6px;
+    font-weight: 400;
 }
 
 .submit-button:hover {

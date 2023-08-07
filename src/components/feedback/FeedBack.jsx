@@ -19,7 +19,7 @@ function FeedBack({ selectFeebackRate }) {
     <>
       <div className="d-flex justify-content-center pt-5 ">
         <Card className="feedback">
-          <Card.Body>
+          <Card.Body className="pt-4">
             <div>
               <button className="star-icon">
                 <img alt="star" src="icon-star.svg" />
@@ -34,7 +34,7 @@ function FeedBack({ selectFeebackRate }) {
               Please let us know how we did with your support request. All
               feedback is appreciated to help us improve our offering!
             </Card.Text>
-            <div className="d-flex justify-content-around mb-3">
+            <div className="d-flex justify-content-around mb-3 pt-2">
               {buttons.map((item) => (
                 <button
                 type="button"
@@ -48,7 +48,7 @@ function FeedBack({ selectFeebackRate }) {
             </div>
             <div className="d-flex justify-content-center">
               <button
-                className="rounded-pill d-felx justify-content-center mt-2 submit-button"
+                className="rounded-pill  mt-2 submit-button "
                 onClick={OnSubmit}
               >
                 SUBMIT

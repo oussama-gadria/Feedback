@@ -11,8 +11,9 @@ function FeedBackThankYou({feedbackRate}) {
               <img alt="star" src="illustration-thank-you.svg" />
             </div>
             <div>
-              <p className="card-text text-center pt-3">
-                {" "}
+              <p className="card-text text-center pt-4"
+                 style={{color: "hsl(25, 97%, 53%)"}}
+              >
                 You selected {feedbackRate} out of 5
               </p>
             </div>
