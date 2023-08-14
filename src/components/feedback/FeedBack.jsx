@@ -26,11 +26,15 @@ function FeedBack({ setFeedbackRate }) {
               </button>
             </div>
             <Card.Title
-              className="pt-4 card-title"
+              className="pt-4  card-title"
+              style={{paddingLeft:"8px"}}
             >
               How did we do?
             </Card.Title>
-            <Card.Text className="card-text">
+            <Card.Text 
+            className="card-text"
+            style={{paddingLeft:"8px"}}
+            >
               Please let us know how we did with your support request. All
               feedback is appreciated to help us improve our offering!
             </Card.Text>
