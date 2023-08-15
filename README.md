@@ -14,8 +14,7 @@ This is a responsive feedback component built with React. Visitors can view the 
 
 ## Demo
 
-![alt text](https://github.com/oussama-gadria/Feedback/blob/main/public/desktop-preview.jpg?raw=true)
-![alt text](https://github.com/oussama-gadria/Feedback/blob/main/public/desktop-thank-you-state.jpg?raw=true)
+A live demo of the project can be found [here](https://feedback-jade.vercel.app)
 
 ## Features
 
