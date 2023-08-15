@@ -30,6 +30,7 @@ To run the feedback component locally, follow these steps:
 1. Clone the repository: `git clone "https://github.com/oussama-gadria/Feedback"`
 2. Navigate to the project directory: `cd feedback`
 3. Install the dependencies: `npm install`
+4. Start the development server: : `npm run start`
 
 ## Usage
 
